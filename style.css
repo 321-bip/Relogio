@@ -1,0 +1,112 @@
+.titulonivel1{
+    text-align: center;
+}
+.conteiner{
+    display: inline-block;
+    background-color:aquamarine;
+    width:400px;
+    height:400px;
+    position:absolute;
+    left:50%;
+    transform:translatex(-50%)
+}
+.conteinerRadius{
+    display:inline-block;
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    left: 20px;
+    top:20px;
+    background-color: azure;
+    border-radius:100%;
+    border:solid 1px black;
+}
+.um{
+    display: inline-block;
+    position:fixed;
+    left: 75%;
+    font-size:25px;
+    top:60px;
+}
+.dois{
+    display: inline-block;
+    position:fixed;
+    left: 86%;
+    font-size:25px;
+    top:120px;
+}
+.tres{
+    display: inline-block;
+    position:fixed;
+    left: 90%;
+    font-size:25px;
+    top: 50%;
+}
+.quato{
+    display: inline-block;
+    position:fixed;
+    left: 50%;
+    font-size:25px;
+    transform: translateX(-50%);
+    bottom: 50%;
+}
+.cinco{
+    display: inline-block;
+    position:fixed;
+    left: 50%;
+    font-size:25px;
+    transform: translateX(-50%);
+    bottom: 50%;
+}
+.seis{
+    display: inline-block;
+    position:fixed;
+    left: 50%;
+    font-size:25px;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+.sete{
+    display: inline-block;
+    position:fixed;
+    left: 25%;
+    font-size:25px;
+    top:323px
+}
+.oito{
+    display: inline-block;
+    position:fixed;
+    left: 15%;
+    font-size:25px;
+    top:280px;
+}
+.nove{
+    display: inline-block;
+    position:fixed;
+    left: 7%;
+    font-size:25px;
+   /* transform: translateX(-50%);*/
+    top:50%;
+}
+.dez{
+    display: inline-block;
+    position:fixed;
+    left: 10%;
+    font-size:25px;
+    top:120px;
+}
+.onze{
+    display: inline-block;
+    position:fixed;
+    left: 25%;
+    font-size:25px;
+    top:60px
+}
+.doze{
+    display: inline-block;
+    position:fixed;
+    left: 50%;
+    font-size:25px;
+    transform: translateX(-50%);
+    top:25px
+}
