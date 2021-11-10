@@ -19,94 +19,133 @@
     top:20px;
     background-color: azure;
     border-radius:100%;
+    border:solid 3px black;
+}
+.conteinerRadiusinterno{
+    display:inline-block;
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    left: 13%;
+    top:44px;
+    background-color: azure;
+    border-radius:100%;
     border:solid 1px black;
 }
-.um{
+/*.segundos{
     display: inline-block;
-    position:fixed;
-    left: 75%;
-    font-size:25px;
-    top:60px;
+    width: 170px;
+    height: 5px;
+    position:absolute;
+    left: 85%;
+    transform:translateX(-85%);
+    top:175px;
+    background-color:red;
+}*/
+.minutos{
+    display: inline-block;
+    width: 170px;
+    height: 5px;
+    position:absolute;
+    left: 50%;
+   /* transform:translateX(-85%);*/
+    transform: rotate(90deg);
+    top:175px;
+    background-color:black;
+}
+/*.horas{
+    display: inline-block;
+    width: 170px;
+    height: 5px;
+    position:absolute;
+    left: 85%;
+    transform:translateX(-85%);
+    top:175px;
+    background-color:black;
+}*/
+.um{
+  display:inline-block;
+  position:absolute;
+  right:22%;
+  font-size:35px;
+  top:32px;
 }
 .dois{
-    display: inline-block;
-    position:fixed;
-    left: 86%;
-    font-size:25px;
-    top:120px;
+  display:inline-block;
+  position:absolute;
+  right:6%;
+  font-size:35px;
+  top:95px;
 }
 .tres{
-    display: inline-block;
-    position:fixed;
-    left: 90%;
-    font-size:25px;
-    top: 50%;
+    display:inline-block;
+    position:absolute;
+    right:3%;
+    font-size:35px;
+    top:165px;
 }
 .quato{
-    display: inline-block;
-    position:fixed;
-    left: 50%;
-    font-size:25px;
-    transform: translateX(-50%);
-    bottom: 50%;
+ display:inline-block;
+  position:absolute;
+  right:6%;
+  font-size:35px;
+  bottom:95px;
 }
 .cinco{
-    display: inline-block;
-    position:fixed;
-    left: 50%;
-    font-size:25px;
-    transform: translateX(-50%);
-    bottom: 50%;
+    display:inline-block;
+  position:absolute;
+  right:22%;
+  font-size:35px;
+  bottom:32px;
 }
 .seis{
-    display: inline-block;
-    position:fixed;
-    left: 50%;
-    font-size:25px;
-    transform: translateX(-50%);
-    bottom: 20px;
+display:inline-block;
+  position:absolute;
+  left:50%;
+  transform:translatex(-50%);
+  font-size:35px;
+  bottom:0;
 }
 .sete{
-    display: inline-block;
-    position:fixed;
-    left: 25%;
-    font-size:25px;
-    top:323px
+    display:inline-block;
+    position:absolute;
+    left:22%;
+    font-size:35px;
+    bottom: 32px;
 }
 .oito{
-    display: inline-block;
-    position:fixed;
-    left: 15%;
-    font-size:25px;
-    top:280px;
+    display:inline-block;
+    position:absolute;
+    left:6%;
+    font-size:35px;
+    bottom:95px;
 }
 .nove{
-    display: inline-block;
-    position:fixed;
-    left: 7%;
-    font-size:25px;
-   /* transform: translateX(-50%);*/
-    top:50%;
+    display:inline-block;
+    position:absolute;
+    left:3%;
+    font-size:35px;
+    top:165px;
 }
 .dez{
-    display: inline-block;
-    position:fixed;
-    left: 10%;
-    font-size:25px;
-    top:120px;
+  display:inline-block;
+  position:absolute;
+  left:6%;
+  font-size:35px;
+  top:95px;
 }
 .onze{
-    display: inline-block;
-    position:fixed;
-    left: 25%;
-    font-size:25px;
-    top:60px
+    display:inline-block;
+    position:absolute;
+    left: 22%;
+    font-size:35px;
+    top:32px;
 }
 .doze{
-    display: inline-block;
-    position:fixed;
-    left: 50%;
-    font-size:25px;
-    transform: translateX(-50%);
-    top:25px
+  display:inline-block;
+  position:absolute;
+  left:50%;
+  transform:translatex(-50%);
+  font-size:35px;
+  top:0px;
 }
