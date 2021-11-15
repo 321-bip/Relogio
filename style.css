@@ -1,14 +1,18 @@
+body{
+  background-color: #fcfcfc;
+}
 .titulonivel1{
     text-align: center;
 }
 .conteiner{
     display: inline-block;
-    background-color:aquamarine;
     width:400px;
     height:400px;
     position:absolute;
     left:50%;
-    transform:translatex(-50%)
+    top: 10px;
+    transform:translatex(-50%);
+    border-radius: 100%;
 }
 .conteinerRadius{
     display:inline-block;
@@ -17,135 +21,39 @@
     position: absolute;
     left: 20px;
     top:20px;
-    background-color: azure;
+    background-image:url(img/relogio.2.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 100%;
     border-radius:100%;
-    border:solid 3px black;
 }
-.conteinerRadiusinterno{
-    display:inline-block;
-    width: 270px;
-    height: 270px;
-    position: absolute;
-    left: 13%;
-    top:44px;
-    background-color: azure;
-    border-radius:100%;
-    border:solid 1px black;
-}
-/*.segundos{
+.segundos{
     display: inline-block;
-    width: 170px;
-    height: 5px;
+    width: 25%;
+    height: 2px;
     position:absolute;
-    left: 85%;
-    transform:translateX(-85%);
-    top:175px;
+    left: 49.5%;
+    transform-origin: left;
+    top:180px;
     background-color:red;
-}*/
+}
 .minutos{
     display: inline-block;
-    width: 170px;
-    height: 5px;
+    width: 25%;
+    height: 2px;
     position:absolute;
-    left: 50%;
-   /* transform:translateX(-85%);*/
-    transform: rotate(90deg);
-    top:175px;
+    left: 49.5%;
+    transform-origin: left;
+    top:180px;
     background-color:black;
 }
-/*.horas{
-    display: inline-block;
-    width: 170px;
-    height: 5px;
-    position:absolute;
-    left: 85%;
-    transform:translateX(-85%);
-    top:175px;
-    background-color:black;
-}*/
-.um{
-  display:inline-block;
+.horas{
+  display: inline-block;
+  width: 25%;
+  height: 2px;
   position:absolute;
-  right:22%;
-  font-size:35px;
-  top:32px;
-}
-.dois{
-  display:inline-block;
-  position:absolute;
-  right:6%;
-  font-size:35px;
-  top:95px;
-}
-.tres{
-    display:inline-block;
-    position:absolute;
-    right:3%;
-    font-size:35px;
-    top:165px;
-}
-.quato{
- display:inline-block;
-  position:absolute;
-  right:6%;
-  font-size:35px;
-  bottom:95px;
-}
-.cinco{
-    display:inline-block;
-  position:absolute;
-  right:22%;
-  font-size:35px;
-  bottom:32px;
-}
-.seis{
-display:inline-block;
-  position:absolute;
-  left:50%;
-  transform:translatex(-50%);
-  font-size:35px;
-  bottom:0;
-}
-.sete{
-    display:inline-block;
-    position:absolute;
-    left:22%;
-    font-size:35px;
-    bottom: 32px;
-}
-.oito{
-    display:inline-block;
-    position:absolute;
-    left:6%;
-    font-size:35px;
-    bottom:95px;
-}
-.nove{
-    display:inline-block;
-    position:absolute;
-    left:3%;
-    font-size:35px;
-    top:165px;
-}
-.dez{
-  display:inline-block;
-  position:absolute;
-  left:6%;
-  font-size:35px;
-  top:95px;
-}
-.onze{
-    display:inline-block;
-    position:absolute;
-    left: 22%;
-    font-size:35px;
-    top:32px;
-}
-.doze{
-  display:inline-block;
-  position:absolute;
-  left:50%;
-  transform:translatex(-50%);
-  font-size:35px;
-  top:0px;
+  left: 49.5%;
+  transform-origin: left;
+  top:180px;
+  background-color:rgb(19, 33, 163);
 }
